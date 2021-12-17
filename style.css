@@ -1,0 +1,28 @@
+body{
+ background-position: center;
+ background-size: cover;   
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+canvas{
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: hello;
+}
+@keyframes hello{
+from{
+    box-shadow: 3px 3px 3px green;
+}
+to{
+    box-shadow: 10px 10px 10px purple;
+}
+}
